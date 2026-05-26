@@ -5290,7 +5290,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libstagefright_softomx_plugin",
+    name: "prebuilt_libstagefright_softomx_plugin",
+    stem: "libstagefright_softomx_plugin",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5707,7 +5708,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libutils",
                 "liblog",
-                "wifi_legacy",
+                "prebuilt_wifi_legacy",
                 "libc++",
                 "libc",
                 "libm",
@@ -5722,7 +5723,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libutils",
                 "liblog",
-                "wifi_legacy",
+                "prebuilt_wifi_legacy",
                 "libc++",
                 "libc",
                 "libm",
@@ -7187,7 +7188,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "wifi_legacy",
+    name: "prebuilt_wifi_legacy",
+    stem: "wifi_legacy",
     owner: "xiaomi",
     strip: {
         none: true,

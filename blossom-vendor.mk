@@ -724,7 +724,7 @@ PRODUCT_PACKAGES += \
     libshmemutil \
     libsoft_attestation_cert \
     libsrv_um \
-    libstagefright_softomx_plugin \
+    prebuilt_libstagefright_softomx_plugin \
     libteeclientjni \
     libteeclientjni@1.1 \
     libtinyxml \
@@ -766,7 +766,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.4 \
     vendor.mediatek.hardware.pq@2.5 \
     vendor.mediatek.hardware.pq@2.6 \
-    wifi_legacy \
+    prebuilt_wifi_legacy \
     com.fingerprints.extension@1.0 \
     gc_gc02m10_ii_IdxMgr \
     gc_gc02m10_ii_tuning \
